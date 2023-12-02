@@ -133,7 +133,7 @@ a {
     color: #39c;
     position: absolute;
     margin-left: 670px;
-    top: 55%;
+    top: 59%;
     font-weight: bold;
 }
 
@@ -144,7 +144,7 @@ a {
     margin: 0 5px;
     font-size: medium;
     position: absolute;
-    top: 65%;
+    top: 68%;
     margin-left: 38%;
     max-width: 300px;
     line-height: 20px;
@@ -158,7 +158,7 @@ a {
     color: #39c;
     margin-left: 1070px;
     position: absolute;
-    top: 65%;
+    top: 59%;
     font-weight: bold;
 }
 
@@ -444,7 +444,7 @@ select {
     .vissao {
         position: absolute;
         margin-left: 150px;
-        margin-top: 340px;
+        margin-top: 320px;
     }
 
     .paragrafo_vissao {
