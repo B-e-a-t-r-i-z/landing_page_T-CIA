@@ -224,7 +224,7 @@ li.fechado {
     border-color: #3dbcdf;
 }
 .produtos li:hover h2 {
-    font-size: 34px;
+    font-size: 20px;
 }
 
 .venha {
@@ -432,7 +432,7 @@ select {
     .valores {
         position: absolute;
         margin-left: 140px;
-        margin-top: 580px;
+        margin-top: 590px;
     }
 
     .topicos_valores {
@@ -450,7 +450,7 @@ select {
     .paragrafo_vissao {
         position: absolute;
         margin-left: 50px;
-        margin-top: 370px;
+        margin-top: 380px;
         
     }
 
@@ -543,7 +543,7 @@ select {
     }
 
     .enviar:hover {
-        font-size: 1px;
+        font-size: 20px;
     }
        
     #mensagem {
