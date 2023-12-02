@@ -443,8 +443,8 @@ select {
 
     .vissao {
         position: absolute;
-        left: 150px;
-        top: 350px;
+        margin-left: 150px;
+        margin-top: 390px;
     }
 
     .paragrafo_vissao {
@@ -538,12 +538,12 @@ select {
         background: #6a18a8;
         text-decoration: none;
         position: absolute;
-        left: 120px;
-        top: 415px;
+        left: 130px;
+        top: 110px;
     }
 
     .enviar:hover {
-        font-size: 20px;
+        font-size: 15px;
     }
        
     #mensagem {
