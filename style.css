@@ -537,8 +537,8 @@ select {
         color: #FFFFFF;
         background: #6a18a8;
         text-decoration: none;
-        position: relative;
-        left: 30px;
+        position: absolute;
+        left: 120px;
         top: 415px;
     }
        
