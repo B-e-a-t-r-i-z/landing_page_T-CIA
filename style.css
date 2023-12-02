@@ -224,7 +224,7 @@ li.fechado {
     border-color: #3dbcdf;
 }
 .produtos li:hover h2 {
-    font-size: 20px;
+    font-size: 34px;
 }
 
 .venha {
@@ -432,7 +432,7 @@ select {
     .valores {
         position: absolute;
         margin-left: 140px;
-        margin-top: 590px;
+        margin-top: 600px;
     }
 
     .topicos_valores {
@@ -450,7 +450,7 @@ select {
     .paragrafo_vissao {
         position: absolute;
         margin-left: 50px;
-        margin-top: 380px;
+        margin-top: 390px;
         
     }
 
@@ -474,6 +474,10 @@ select {
 
     .produtos li h2 {
         font-size: 20px;
+    }
+
+    .produtos li:hover h2 {
+        font-size: 25px;
     }
 
     .produto_descricao {
@@ -539,11 +543,7 @@ select {
         text-decoration: none;
         position: absolute;
         left: 120px;
-        top: 415px;
-    }
-
-    .enviar:hover {
-        font-size: 20px;
+        top: 418px;
     }
        
     #mensagem {
