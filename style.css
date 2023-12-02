@@ -265,7 +265,7 @@ li.fechado {
 .texto {
     color: #6a18a8;
     position: absolute;
-    left:130px;
+    left:100px;
 }
 
 /*formulario*/
@@ -273,7 +273,7 @@ li.fechado {
 form {
     position: absolute;
     top: 150px;
-    left: 150px;
+    left: 2px;
 }
 
 fieldset {
