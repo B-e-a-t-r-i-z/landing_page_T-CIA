@@ -432,7 +432,7 @@ select {
     .valores {
         position: absolute;
         margin-left: 140px;
-        margin-top: 550px;
+        margin-top: 570px;
     }
 
     .topicos_valores {
@@ -444,13 +444,13 @@ select {
     .vissao {
         position: absolute;
         margin-left: 150px;
-        margin-top: 385px;
+        margin-top: 380px;
     }
 
     .paragrafo_vissao {
         position: absolute;
         margin-left: 50px;
-        margin-top: 360px;
+        margin-top: 365px;
         
     }
 
@@ -539,7 +539,7 @@ select {
         text-decoration: none;
         position: absolute;
         left: 120px;
-        top: 350px;
+        top: 450px;
     }
 
     .enviar:hover {
