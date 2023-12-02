@@ -432,7 +432,7 @@ select {
     .valores {
         position: absolute;
         margin-left: 140px;
-        margin-top: 570px;
+        margin-top: 580px;
     }
 
     .topicos_valores {
@@ -450,7 +450,7 @@ select {
     .paragrafo_vissao {
         position: absolute;
         margin-left: 50px;
-        margin-top: 365px;
+        margin-top: 370px;
         
     }
 
@@ -539,11 +539,11 @@ select {
         text-decoration: none;
         position: absolute;
         left: 120px;
-        top: 450px;
+        top: 415px;
     }
 
     .enviar:hover {
-        font-size: 15px;
+        font-size: 1px;
     }
        
     #mensagem {
