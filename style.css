@@ -1,0 +1,565 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@200&display=swap');
+
+* {
+    margin: 0; 
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 400;
+    vertical-align: baseline;
+    text-decoration: none;
+    list-style: none;
+}
+
+header {
+    background: #f2f2f2;
+}
+
+body{
+    background-color: #f2f2f2;
+}
+
+.roxo {
+    background-color: #6a18a8;
+}
+
+.logo {
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 200px;
+}
+
+.caixa {
+    display: flex;
+    flex-direction: row;
+}
+
+.pagina_inicial {
+    margin: 0 30px 0 0;
+    position: absolute;
+    top: 30px;
+    right: 350px;
+    color: #FFFFFF;
+    background: #6a18a8;
+}
+
+.pagina_inicial_destaque{
+    margin: 0 30px 0 0;
+    position: absolute;
+    top: 30px;
+    right: 350px;
+    color: #6a18a8;
+    background: #f2f2f2;
+}
+
+.pagina_contato {
+    margin: 0 30px 0 0;
+    position: absolute;
+    top: 30px;
+    right: 200px;
+    color: #6a18a8;
+    background: #f2f2f2;
+}
+
+.pagina_contato_destaque {
+    margin: 0 30px 0 0;
+    position: absolute;
+    top: 30px;
+    right: 200px;
+    color: #FFFFFF;
+    background: #6a18a8;   
+}
+
+a {
+    padding: 1px 30px;
+    border-radius: 10px;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.historia {
+    font-size: 30px;
+    font-weight: 590;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #39c;
+    text-align: center; 
+    margin-right: 50px;
+    padding-top: 40px;
+    font-weight: bold;
+}
+
+.paragrafo_historia {
+    color: #f2f2f2;    
+    text-align: center;
+    flex: 1;
+    margin: 0 5px;
+    font-size: medium;
+    margin-top: 20px;
+    margin-left: 23%;
+    max-width: 50%;
+    line-height: 20px;
+}
+
+.missao {
+    font-size: 30px;
+    font-weight: 590;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #39c;
+    margin-left: 170px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.paragrafo_missao {
+    color: #f2f2f2;    
+    text-align: center;
+    flex: 1;
+    margin: 0 5px;
+    font-size: mediums;
+    margin-top: 20px;
+    margin-left: 5%;
+    max-width: 300px;
+    line-height: 20px;
+}
+
+.vissao {
+    font-size: 30px;
+    font-weight: 590px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #39c;
+    position: absolute;
+    margin-left: 670px;
+    top: 59%;
+    font-weight: bold;
+}
+
+.paragrafo_vissao {
+    color: #f2f2f2;    
+    text-align: center;
+    flex: 1;
+    margin: 0 5px;
+    font-size: medium;
+    position: absolute;
+    top: 68%;
+    margin-left: 38%;
+    max-width: 300px;
+    line-height: 20px;
+}
+
+.valores {
+    font-size: 30px;
+    font-weight: 590;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #39c;
+    margin-left: 1070px;
+    position: absolute;
+    top: 59%;
+    font-weight: bold;
+}
+
+.topicos_valores {
+    color: #f2f2f2;    
+    font-size: medium;
+    position: relative;
+    margin-top: -120px;
+    margin-left: 1090px;
+    padding-bottom: 80px;
+}
+
+li.fechado {
+    list-style: disc;
+}
+
+.servicos {
+    font-size: 70px;
+    line-height: 90%;
+    font-weight: 800;
+    color: #3dbcdf;
+    margin-left: 33%;
+    margin-top: 50px;
+}
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto_descricao {
+    font-size: 18px;
+    color: #f2f2f2;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #6a18a8;
+    border-radius: 10px;
+    position: relative;
+    left: 13%;
+    background-color: #6a18a8;
+    color: #f2f2f2;
+}
+
+.produtos li:hover{
+    border-color: #C78C19;
+}
+
+.produtos li:active {
+    border-color: #3dbcdf;
+}
+.produtos li:hover h2 {
+    font-size: 34px;
+}
+
+.venha {
+    font-size: 70px;
+    line-height: 90%;
+    font-weight: 800;
+    color: #f2f2f2;
+    margin-left: 16%;
+    margin-top: 50px;  
+    padding-top: 30px;
+}
+
+.endereco {
+    color: #f2f2f2;    
+    text-align: center;
+    flex: 1;
+    margin: 0 5px;
+    font-size: medium;
+    margin-top: 27px;
+    margin-left: -5%;
+}
+
+.mapa {
+    padding: 3%;
+    margin-left: 170px;
+}
+
+.contatos {
+    font-size: 70px;
+    line-height: 90%;
+    font-weight: 800;
+    color: #3dbcdf;
+    margin-left: 15%;
+    margin-top: 190px;
+    padding-bottom: 20px; 
+}
+
+.texto {
+    color: #6a18a8;
+    position: absolute;
+    left:130px;
+}
+
+/*formulario*/
+
+form {
+    position: absolute;
+    top: 150px;
+    left: 150px;
+}
+
+fieldset {
+    width: 70%;
+    margin-left: 550px;
+    border: 2px solid #6a18a8;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    color: #6a18a8;
+}
+
+.input_padrao {
+    font-family: inherit;
+    line-height: 1.15;
+    border: 2px solid #6a18a8;
+    border-radius: 10px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8.5px;
+    background-color: #f2f2f2;
+}
+
+.input_padrao:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.05rem #6a18a8;
+}
+
+.input_padrao:hover{
+    border-color: #3dbcdf;
+}
+
+.checkbox{
+    margin: 20px 0;
+    padding-left: 2%;
+}
+
+.enviar {
+    padding: 1px 30px;
+    border-radius: 10px;
+    font-size: 22px;
+    color: #FFFFFF;
+    background: #6a18a8;
+    text-decoration: none;
+    position: relative;
+    left: 244px;
+    top: 8px;
+
+}
+
+.enviar:hover {
+    font-size: 25px;
+}
+
+label {
+    font-weight: bolder;
+}
+
+select {
+    background-color: #f2f2f2;
+}
+
+#mensagem {
+    width: 95%;
+    height: 100px;
+}
+
+#nome {
+    width: 85%;
+}
+
+#endereco {
+    width: 81%;
+}
+
+#email {
+    width: 56%;
+}
+
+#cidade{
+    padding-left: 40%;
+}
+
+/*Smartphones*/
+@media screen and (max-width: 730px){
+    
+    header {
+        height: 65px;
+    }
+ 
+    .logo {
+        position: relative;
+        margin-left: -40px;
+        width: 30%;
+    }
+
+    .pagina_inicial {
+        position: relative;
+        left: 150px;
+        top: -50px;
+        font-size: 18px;
+    }
+
+    .pagina_contato {
+        position: absolute;
+        left: 260px;
+        font-size: 18px;
+    }
+
+    .pagina_inicial_destaque {
+        position: relative;
+        left: 150px;
+        top: -50px;
+        font-size: 18px;
+    }
+
+    .pagina_contato_destaque {
+        position: relative;
+        left: 260px;
+        top: -75px;
+        font-size: 18px;
+        width: 10px;
+    }
+
+    .roxo {
+        background-color: #6a18a8;
+        padding-bottom: 650px;
+    }
+
+    .historia{
+        position: absolute;
+        left: 75px;
+    }
+
+    .paragrafo_historia {
+        padding-top: 110px;
+        margin: 20px;
+        max-width: 400px;
+        text-align: center;
+    }
+
+    .missao {
+        position: absolute;
+        left: -20px;
+        top: 580px;
+        
+    }
+
+    .paragrafo_missao {
+        position: absolute;
+        left: 20px;
+        top: 660px
+    }
+
+    .valores {
+        position: absolute;
+        margin-left: 140px;
+        margin-top: 550px;
+    }
+
+    .topicos_valores {
+        position: absolute;
+        margin-left: 150px;
+        margin-top: 520px;
+    }
+
+    .vissao {
+        position: absolute;
+        margin-left: 150px;
+        margin-top: 340px;
+    }
+
+    .paragrafo_vissao {
+        position: absolute;
+        margin-left: 50px;
+        margin-top: 340px;
+        
+    }
+
+    .servicos {
+        font-size: 40px;
+        position: absolute;
+        margin-left: 68px;
+    }
+
+    .produtos li{
+        display: inline-block;
+        left: 30px;
+        top: 75px;
+    }
+
+    .produtos {
+        padding-bottom: 20%;
+        max-width: 500px;
+        max-height: 300px;
+    }
+
+    .produtos li h2 {
+        font-size: 20px;
+    }
+
+    .produto_descricao {
+        font-size: 15px;
+    }
+
+    .venha {
+        font-size: 35px;
+        text-align: center;
+        margin-left: 5px;
+    }
+
+    .endereco {
+        width: 300px;
+        position: absolute;
+        left: 60px;
+    }
+
+    .mapa {
+        width: 125%;
+        position: absolute;
+        margin-left: -3%;
+        margin-top: 100px;
+        margin-right: -50%;
+        margin-bottom: 100px;
+    }
+
+    .contatos {
+        position: absolute;
+        margin-left: 70px;
+        margin-top: 50px;
+        margin-left: 68px;
+    }
+
+    .texto {
+        position: absolute;
+        margin-top: 130px;
+        margin-left: -40px;
+        color: #6a18a8;
+        text-align: center;
+    }
+
+    fieldset {
+        position: absolute;
+        margin-left: 15px;
+        margin-top: 130px;
+        width: 320px;
+        padding-bottom: 40px;
+        border-color: #6a18a8;
+    }
+
+    .checkbox{
+        margin: 20px 0;
+        padding-left: 2%;
+    }
+    
+    .enviar {
+        padding: 1px 30px;
+        border-radius: 10px;
+        font-size: 22px;
+        color: #FFFFFF;
+        background: #6a18a8;
+        text-decoration: none;
+        position: absolute;
+        margin-left: 100px;
+    }
+       
+    #mensagem {
+        width: 88%;
+        height: 100px;
+    }
+    
+    #nome {
+        width: 75%;
+    }
+    
+    #endereco {
+        width: 68%;
+    }
+    
+    #email {
+        width: 56%;
+        line-break: normal;
+    }
+
+    #celular {
+        width: 35%;
+    }
+}
