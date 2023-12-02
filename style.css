@@ -476,10 +476,6 @@ select {
         font-size: 20px;
     }
 
-    .produtos li:hover h2 {
-        font-size: 25px;
-    }
-
     .produto_descricao {
         font-size: 15px;
     }
@@ -543,7 +539,7 @@ select {
         text-decoration: none;
         position: absolute;
         left: 120px;
-        top: 420px;
+        top: 423px;
     }
        
     #mensagem {
