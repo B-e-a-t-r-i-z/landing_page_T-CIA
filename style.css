@@ -257,7 +257,7 @@ li.fechado {
     line-height: 90%;
     font-weight: 800;
     color: #3dbcdf;
-    margin-left: 15%;
+    margin-left: 10%;
     margin-top: 190px;
     padding-bottom: 20px; 
 }
@@ -265,7 +265,7 @@ li.fechado {
 .texto {
     color: #6a18a8;
     position: absolute;
-    left:100px;
+    left: 50px;
 }
 
 /*formulario*/
@@ -320,8 +320,8 @@ fieldset {
     background: #6a18a8;
     text-decoration: none;
     position: relative;
-    left: 30px;
-    top: 415px;
+    left: 240px;
+    top: 8px;
 
 }
 
@@ -537,8 +537,9 @@ select {
         color: #FFFFFF;
         background: #6a18a8;
         text-decoration: none;
-        position: absolute;
-        margin-left: 100px;
+        position: relative;
+        left: 30px;
+        top: 415px;
     }
        
     #mensagem {
