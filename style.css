@@ -443,14 +443,14 @@ select {
 
     .vissao {
         position: absolute;
-        margin-left: 150px;
-        margin-top: 330px;
+        left: 150px;
+        top: 350px;
     }
 
     .paragrafo_vissao {
         position: absolute;
         margin-left: 50px;
-        margin-top: 340px;
+        margin-top: 350px;
         
     }
 
@@ -540,6 +540,10 @@ select {
         position: absolute;
         left: 120px;
         top: 415px;
+    }
+
+    .enviar:hover {
+        font-size: 20px;
     }
        
     #mensagem {
