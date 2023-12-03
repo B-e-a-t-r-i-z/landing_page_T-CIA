@@ -223,9 +223,6 @@ li.fechado {
 .produtos li:active {
     border-color: #3dbcdf;
 }
-.produtos li:hover h2 {
-    font-size: 34px;
-}
 
 .venha {
     font-size: 70px;
